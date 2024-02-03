@@ -34,3 +34,11 @@ git clone https://github.com/CheemsThx/AstroNvim_UserConfig ~/.config/nvim/lua/u
 ```shell
 nvim
 ```
+
+#### Copilot 如何使用
+
+使用配置在`user.lua`,可以配置在哪些文件自动启用,键位配置
+
+<M-l>中的M是Alt键，在MacOs中是Option，在MacOs中有一个比较坑的点，Option按键组合其他按键，大部分会输出奇怪的字符，导致组合键不生效
+
+解决方法是通过配置终端Profiles中Keys页面，将Option key配置为`+Esc`
